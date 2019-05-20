@@ -107,20 +107,15 @@ Some other util methods available to all FunctionObjects are:
 2. `functionObj.getUf()` - Returns the Uf matrix created for the the given function f(x)
 3. `functionObj.getFunctionResult(x,helper)` - returns the result of applying f(x) as |x>|b+f(x)>. The returned value is a qubit vector in the standard basis.
 
+-------------------------------------------------------------------------------------------------------------------
 
-#########################################################################
-			GROVER'S ALGORITHM
-#########################################################################
+# GROVER'S ALGORITHM
 
-================================
-Goal
-================================
+### Goal
 
 Present a README file that describes how to input the function f, how to run the program, and how to understand the output.
 
-================================
-Steps
-================================
+### Steps
 
 1. User enters n. 
 2. Function type is selected randomly: Only one possibility of x resulting in f(x)=1 OR one or more possibilities of x resulting in f(x)=1.
@@ -134,18 +129,14 @@ Steps
 	d. H applied to all lines.
 7. Measurement taken.
 
-================================
-Output Explanation
-================================
+### Output Explanation
 
 Results in the following form: {line: array ([trial_output_i for nTrials])}
 
 Example 1: {0: array([0, 0, 0, 0, 0]), 1: array([1, 1, 1, 1, 0])} is |01>, |01>,|01>,|01>,|00> and number of Trials is 5.
 Example 2: {0: array([0, 1]), 1: array([1, 0]), 2: array([1, 0])} is |011>, |100> and number of Trials is 2.
 
-================================
-Function types and explanation
-================================
+### Function types and explanation
 
 1. Only one possibility of x resulting in f(x)=1 
 	a. Random binary bit array of length n generated.
@@ -153,4 +144,4 @@ Function types and explanation
 2. One or more possibilities of x resulting in f(x)=1.
 	a. Random binary bit array of length n generated such that only one 1 and rest all 0s.
 	b. f(x)=1 if a.x=1.
-#########################################################################
+-------------------------------------------------------------------------------------------------------------------
