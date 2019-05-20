@@ -25,6 +25,8 @@ def fx(inputString):
 	fn_dict = {'00':'10','01':'10','10':'01','11':'01'}  
 	return fn_dict[inputString]
 
+
+
 ```
 
 If we want to test this function and get the result of running the quantum circuit, all we need to do is.
@@ -104,3 +106,51 @@ Some other util methods available to all FunctionObjects are:
 1. `functionObj.verifyUf()` - Verify Uf matrix created conforms with the equation Uf|x>|b> = |x>|b+f(x)>
 2. `functionObj.getUf()` - Returns the Uf matrix created for the the given function f(x)
 3. `functionObj.getFunctionResult(x,helper)` - returns the result of applying f(x) as |x>|b+f(x)>. The returned value is a qubit vector in the standard basis.
+
+
+#########################################################################
+			GROVER'S ALGORITHM
+#########################################################################
+
+================================
+Goal
+================================
+
+Present a README file that describes how to input the function f, how to run the program, and how to understand the output.
+
+================================
+Steps
+================================
+
+1. User enters n. 
+2. Function type is selected randomly: Only one possibility of x resulting in f(x)=1 OR one or more possibilities of x resulting in f(x)=1.
+3. Z_f and -Z_0 are created of size 2^n x 2^n each. No helper bits involved.
+4. H applied to |0^n>
+5. Max iter calculated.
+6. For that many iterations:
+	a. Z_f applied
+	b. H applied to all lines
+	c. -Z_0 applied.
+	d. H applied to all lines.
+7. Measurement taken.
+
+================================
+Output Explanation
+================================
+
+Results in the following form: {line: array ([trial_output_i for nTrials])}
+
+Example 1: {0: array([0, 0, 0, 0, 0]), 1: array([1, 1, 1, 1, 0])} is |01>, |01>,|01>,|01>,|00> and number of Trials is 5.
+Example 2: {0: array([0, 1]), 1: array([1, 0]), 2: array([1, 0])} is |011>, |100> and number of Trials is 2.
+
+================================
+Function types and explanation
+================================
+
+1. Only one possibility of x resulting in f(x)=1 
+	a. Random binary bit array of length n generated.
+	b. Only x that is equal to a can have f(x)=1
+2. One or more possibilities of x resulting in f(x)=1.
+	a. Random binary bit array of length n generated such that only one 1 and rest all 0s.
+	b. f(x)=1 if a.x=1.
+#########################################################################
