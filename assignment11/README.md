@@ -82,11 +82,12 @@ Present a README file that describes how to input the function f, how to run the
 3. Z_f and -Z_0 are created of size 2^n x 2^n each. No helper bits involved.
 4. H applied to |0^n>
 5. Max iter calculated.
-6. For that many iterations:
-	a. Z_f applied
-	b. H applied to all lines
-	c. -Z_0 applied.
-	d. H applied to all lines.
+6. For that many iterations:<br>
+	<pre>a. Z_f applied<br>
+	b. H applied to all lines<br>
+	c. -Z_0 applied.<br>
+	d. H applied to all lines.</pre><br>
+	
 7. Measurement taken.
 
 ### Output Explanation
