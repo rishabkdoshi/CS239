@@ -54,7 +54,7 @@ def fx(inputString):
 We can create a function object with this fx as below.
 
 ```
-functionObject = SimonsFunction(fx,2,None, fx, '01')
+functionObject = SimonsFunction(2,None, fx, '01')
 
 #syntax
 #SimonsFunction(SizeOfS, FunctionType,  functionPointer, SValue)
