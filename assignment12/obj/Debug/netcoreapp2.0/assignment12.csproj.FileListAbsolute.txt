@@ -1,0 +1,11 @@
+D:\Quarter 3\Quantum Computing\CS239\assignment12\bin\Debug\netcoreapp2.0\assignment12.deps.json
+D:\Quarter 3\Quantum Computing\CS239\assignment12\bin\Debug\netcoreapp2.0\assignment12.runtimeconfig.json
+D:\Quarter 3\Quantum Computing\CS239\assignment12\bin\Debug\netcoreapp2.0\assignment12.runtimeconfig.dev.json
+D:\Quarter 3\Quantum Computing\CS239\assignment12\bin\Debug\netcoreapp2.0\assignment12.dll
+D:\Quarter 3\Quantum Computing\CS239\assignment12\bin\Debug\netcoreapp2.0\assignment12.pdb
+D:\Quarter 3\Quantum Computing\CS239\assignment12\obj\Debug\netcoreapp2.0\assignment12.csprojAssemblyReference.cache
+D:\Quarter 3\Quantum Computing\CS239\assignment12\obj\Debug\netcoreapp2.0\assignment12.csproj.CoreCompileInputs.cache
+D:\Quarter 3\Quantum Computing\CS239\assignment12\obj\Debug\netcoreapp2.0\assignment12.AssemblyInfoInputs.cache
+D:\Quarter 3\Quantum Computing\CS239\assignment12\obj\Debug\netcoreapp2.0\assignment12.AssemblyInfo.cs
+D:\Quarter 3\Quantum Computing\CS239\assignment12\obj\Debug\netcoreapp2.0\assignment12.dll
+D:\Quarter 3\Quantum Computing\CS239\assignment12\obj\Debug\netcoreapp2.0\assignment12.pdb
