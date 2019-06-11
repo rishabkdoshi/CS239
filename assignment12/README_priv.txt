@@ -1,0 +1,1 @@
+The above file can be replaces in the Quantum-Master Microsoft github project in the folder 'Simple Algorithms' in Samples. It includes the profiling code that measures time for each kind of run.
